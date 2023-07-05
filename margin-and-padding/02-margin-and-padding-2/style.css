@@ -6,22 +6,40 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 18px auto;
+  border: 8px solid rgb(255, 255, 255); 
+  /* entire card bordered red */
 }
 
 .title {
   background: #e3f4ff;
+  padding: 8px;
+  font-size: 16px;
+  margin: 0px;
+  
+  /* first baby blue section */
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  border-bottom: 8px solid rgb(255, 255, 255);
+  border-top: 8px solid rgb(255, 255, 255);
+  /* green bottom border */
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
-  background: white;
-  border: 1px solid #eee;
+  background: rgb(255, 255, 255);
+  border: 1px solid #eeeeee;
+  padding: 8px 24px;
+  text-align: center;
+}
+span {
+  display:block; 
 }
